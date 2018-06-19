@@ -1,0 +1,60 @@
+= Homebrew for libnereon
+
+image:https://travis-ci.org/riboseinc/libnereon.svg?branch=master["Build Status", link="https://travis-ci.org/riboseinc/libnereon"]
+
+This tap contains formulae relating to link:https://github.com/riboseinc/libnereon/[libnereon].
+
+== Install Tap
+
+[source,sh]
+----
+brew tap riboseinc/libnereon
+----
+
+== Install libnereon
+
+To install `libnereon` from release:
+
+[source,sh]
+----
+brew install libnereon
+----
+
+To install `libnereon` from git repository:
+
+[source,sh]
+----
+brew install --HEAD libnereon
+----
+
+Or:
+
+[source,sh]
+----
+brew install --HEAD riboseinc/libnereon/libnereon
+----
+
+You can also install via URL:
+
+[source,sh]
+----
+brew install --HEAD https://raw.githubusercontent.com/riboseinc/homebrew-libnereon/master/libnereon.rb
+----
+
+== Acceptable Formulae
+
+You can read Homebrew’s Acceptable Formulae document link:https://github.com/Homebrew/brew/blob/master/docs/Acceptable-Formulae.md/[here].
+
+== Troubleshooting
+
+First, please run `brew update` and `brew doctor`.
+
+Second, read the link:https://github.com/Homebrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting/[Troubleshooting Checklist].
+
+== More Documentation
+
+`brew help`, `man brew` or check link:https://github.com/Homebrew/brew/tree/master/docs#readme/[our documentation].
+
+== License
+
+Code is under the link:https://github.com/Homebrew/brew/tree/master/LICENSE.txt/[BSD 2 Clause license].
