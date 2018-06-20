@@ -1,6 +1,6 @@
 = Homebrew for libnereon
 
-image:https://travis-ci.org/riboseinc/libnereon.svg?branch=master["Build Status", link="https://travis-ci.org/riboseinc/libnereon"]
+image:https://travis-ci.org/riboseinc/homebrew-libnereon.svg?branch=master["Build Status", link="https://travis-ci.org/riboseinc/homebrew-libnereon"]
 
 This tap contains formulae relating to link:https://github.com/riboseinc/libnereon/[libnereon].
 
