@@ -2,7 +2,7 @@ class Libnereon < Formula
   desc "libnereon: Multi-Configuration Parser Library"
   homepage "https://github.com/riboseinc/libnereon"
   url "https://github.com/riboseinc/libnereon/archive/v0.9.2.tar.gz"
-  sha256 "d1fac1b446fbe4a8dbb93617070cc836b066cc1420ec549693513394a5d7307f"
+  sha256 "31969ea5085471e0b62aa7cc3e85d8e29316211052d8fea1d9af4e454fd137d4"
   head "https://github.com/riboseinc/libnereon.git"
 
   depends_on "autoconf" => :build
