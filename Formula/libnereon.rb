@@ -1,8 +1,8 @@
 class Libnereon < Formula
   desc "libnereon: Multi-Configuration Parser Library"
   homepage "https://github.com/riboseinc/libnereon"
-  url "https://github.com/riboseinc/libnereon/archive/v0.9.4.tar.gz"
-  sha256 "4c7e318dea14758948e397ef689e31bd22c8e1783a4cbcabe319b175a5092d99"
+  url "https://github.com/riboseinc/libnereon/archive/v0.9.5.tar.gz"
+  sha256 "03a52b2e7c3d9d3fbbed5341dc6be0bd9b7a5f5e063f4e530d8e7b9dc2a2c694"
   head "https://github.com/riboseinc/libnereon.git"
 
   depends_on "autoconf" => :build
@@ -12,7 +12,7 @@ class Libnereon < Formula
   depends_on "pkg-config" => :build
 
   devel do
-    version '0.9.4'
+    version '0.9.5'
   end
 
   def install
